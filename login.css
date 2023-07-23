@@ -1,0 +1,164 @@
+  h1 {
+  color:white;
+  margin: 30px;
+
+  }
+  label {
+    color: white;
+    /* #ECBC55; */
+  }
+  
+  body {
+    background-image: url("stacked-waves-haikei.svg"); 
+    /* background: #87b7d9; */
+    color: white;
+    font: 87.5%/1.5em  Arial;
+    margin: 0;
+    height: 100vh;
+  }
+
+  footer {
+    background: #22272a;
+    /* bottom: 0; */
+    /* padding-bottom: 20px; */
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 100px; 
+  }
+  
+  input {
+    border: none;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 0;
+  }
+
+  p {
+    color: white;
+    border: none;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 0;
+   }
+    
+  #login {
+    margin: 50px auto;
+    width: 390px;
+  }
+  #dash {
+    margin: 50px auto;
+    width: 390px;
+    padding: 30px;
+    border-radius: 10px;
+    background: #22272a;
+
+  }
+
+  #dash td {
+    width: 150px;
+  }
+
+  /* #dash form {
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: #22272a;
+  } */
+
+  #login form {
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: #22272a;
+  }
+  
+  .input{
+    background-color: #3b4148;
+    border-radius:10px;
+    color: #919191;
+    margin-bottom: 1em;
+    padding: 0 16px;
+    width: 90%;
+    outline: 0;
+    height: 50px;
+  }
+  .sub {
+    background: #0c787d;
+    border: 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  .sub:hover {
+    background: #076064;
+  }
+  
+  th {
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  td {
+    background-color: #0c787d;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  nav {    
+    width: 200px;
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav li {
+    padding: 8px 3px;
+    font-size: 18px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container img {
+    margin-right: 10px;
+    align-items: left;
+    justify-content: left;
+  }
+  .container h1 {
+    
+  }
+
+  .container button {
+    position: relative;
+    margin-right: auto;
+    background: #db0d0d;
+
+  }
+
+  #us {
+    position: relative;
+    margin-right: auto;
+    background: #0c787d;
+    border: 0;
+    width: 8%;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+  }
